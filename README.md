@@ -1,6 +1,6 @@
 # To-use-the-built-in-source-code-management-in-Visual-Studio-Code
 
-怎么在Vscode使用其自带的源代码管理（教程）
+## 怎么在Vscode使用其自带的源代码管理（教程）
 
 ## 使用 VSCode 配置 Git 连接 GitHub 具体步骤
 
@@ -32,7 +32,16 @@
 
 在 GitHub 上创建一个新的仓库，或者选择一个已有的仓库。点击仓库页面上的 `Code` 按钮，复制 SSH URL（例如：`git@github.com:username/repository.git`）。
 
-![源代码管理->点击克隆](./image.png)在之后弹出的输入框输入你的`SSH URL`
+![源代码管理->点击克隆](./image.png)
+![源代码管理->点击克隆](./image2.png)
+在之后弹出的输入框输入你的`SSH URL`或者`HTTPS URL`
+
+## 7.或者直接进行登录克隆
+
+如果你的 GitHub 账号和本地 Git 账号绑定，你可以直接在 VSCode 中克隆仓库。
+![源代码管理->点击克隆](./image.png)
+![源代码管理->点击克隆](./image2.png)
+之后直接点击从Github克隆，选择你要克隆的仓库，然后点击克隆即可。
 
 ## 8. 使用 VSCode 进行版本控制
 
