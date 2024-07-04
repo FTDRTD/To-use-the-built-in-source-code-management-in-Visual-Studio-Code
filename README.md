@@ -32,14 +32,7 @@
 
 在 GitHub 上创建一个新的仓库，或者选择一个已有的仓库。点击仓库页面上的 `Code` 按钮，复制 SSH URL（例如：`git@github.com:username/repository.git`）。
 
-在 VSCode 中，打开终端，输入以下命令克隆仓库：
-`git clone git@github.com:username/repository.git`
-
-## 7. 打开克隆的仓库
-
-克隆完成后，可以在 VSCode 中打开克隆的仓库：
-`cd repository`
-`code .`
+![源代码管理->点击克隆](./image.png)在之后弹出的输入框输入你的`SSH URL`
 
 ## 8. 使用 VSCode 进行版本控制
 
