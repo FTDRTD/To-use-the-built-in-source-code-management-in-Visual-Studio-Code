@@ -14,7 +14,7 @@
 
 ## 3. 配置 Git
 
-打开终端（在 VSCode 中可以使用快捷键 `Ctrl + `` 打开终端），输入以下命令配置你的 Git 用户名和邮箱：
+打开终端，输入以下命令配置你的 Git 用户名和邮箱：
 `git config --global user.name "你的用户名"`
 `git config --global user.email "你的邮箱"`
 
