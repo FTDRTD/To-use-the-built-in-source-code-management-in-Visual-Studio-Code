@@ -15,14 +15,12 @@
 ## 3. 配置 Git
 
 打开终端（在 VSCode 中可以使用快捷键 `Ctrl + `` 打开终端），输入以下命令配置你的 Git 用户名和邮箱：
-`sh`
 `git config --global user.name "你的用户名"`
 `git config --global user.email "你的邮箱"`
 
 ## 4. 生成 SSH 密钥
 
 如果你还没有生成 SSH 密钥，可以使用以下命令生成：
-`sh`
 `ssh-keygen -t rsa -b 4096 -C "你的邮箱"`
 按提示操作，通常可以直接按回车键使用默认设置。生成的密钥会保存在 `~/.ssh` 目录下。
 
@@ -35,13 +33,11 @@
 在 GitHub 上创建一个新的仓库，或者选择一个已有的仓库。点击仓库页面上的 `Code` 按钮，复制 SSH URL（例如：`git@github.com:username/repository.git`）。
 
 在 VSCode 中，打开终端，输入以下命令克隆仓库：
-`sh`
 `git clone git@github.com:username/repository.git`
 
 ## 7. 打开克隆的仓库
 
 克隆完成后，可以在 VSCode 中打开克隆的仓库：
-`sh`
 `cd repository`
 `code .`
 
